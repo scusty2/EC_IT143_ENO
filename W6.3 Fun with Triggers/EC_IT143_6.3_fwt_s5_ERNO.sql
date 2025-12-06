@@ -1,0 +1,5 @@
+-- Q: How can I keep track of when a record was last modified?
+-- A: Well, here is your problem...
+-- Row was updated -> last_modified_date changed to current timestamp
+-- Trigger tr_hello_world_last_mod fired successfully
+-- Research source: https://stackoverflow.com/questions/9522982/t-sql-trigger-update
